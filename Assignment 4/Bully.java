@@ -46,7 +46,7 @@ public class Bully {
                 for (i = 5; i >= mess; --i) {
                     if (!state[i - 1])
                         continue;
-                    System.out.println("Coordinator message send from process " + i + " to all");
+                    System.out.println("Coordinator message send from process" + i + "to all");
                     break;
                 }
             }
@@ -62,7 +62,7 @@ public class Bully {
             Bully.state[i] = true;
         }
         System.out.println("5 active process are:");
-        System.out.println("Process up = p1 p2 p3 p4 p5");
+        System.out.println("Process up  = p1 p2 p3 p4 p5");
         System.out.println("Process 5 is coordinator");
         do {
             System.out.println(".........");
@@ -76,7 +76,7 @@ public class Bully {
                 System.out.println("bring proces up");
                 int up = sc.nextInt();
                 if (up == 5) {
-                    System.out.println("process 5 is co­ordinator");
+                    System.out.println("process 5 is co-ordinator");
                     Bully.state[4] = true;
                     break;
                 }
@@ -91,10 +91,10 @@ public class Bully {
             }
             case 3: {
                 System.out.println("which process will send message");
+                int mess = sc.nextInt();
+                Bully.mess(mess);
             }
             }
-            int mess = sc.nextInt();
-            Bully.mess(mess);
         } while (choice != 4);
     }
 }
