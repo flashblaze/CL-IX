@@ -1,0 +1,26 @@
+ 
+    {"booking": [
+      { "movie-name": "ABCD",
+        "user-name": "A",
+        "screen": 1,
+        "Start-time" : "12:30"
+      },
+      { "movie-name": "ABCD",
+        "user-name": "B",
+        "screen": 1,
+        "Start-time" : "12:30"
+
+      },{ "movie-name": "EFGH",
+        "user-name": "C",
+        "screen": 1,
+        "Start-time" : "3:30"
+      },{ "movie-name": "IJKL",
+        "user-name": "D",
+        "screen": 2,
+        "Start-time" : "6:30"
+      },{ "movie-name": "MNOP",
+        "user-name": "E",
+        "screen": 2,
+        "Start-time" : "9:30"
+      }
+    ]} 

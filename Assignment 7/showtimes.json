@@ -1,0 +1,17 @@
+ 
+    {"showtimes": [
+      { "movie-name": "ABCD",
+        "screen-no": "1",
+        "Start-time": "12:30"
+      },
+      { "movie-name": "EFGH",
+        "screen-no": "1",
+        "Start-time": "3:30"
+      },{ "movie-name": "IJKL",
+        "screen-no": "2",
+        "Start-time": "6:30"
+      },{ "movie-name": "MNOP",
+        "screen-no": "2",
+        "Start-time": "9:30"
+      }
+    ]} 
