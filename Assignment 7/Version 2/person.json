@@ -1,0 +1,16 @@
+{
+  "people": [
+    {
+      "name": "Person_SHA",
+      "projects": ["Project mango", "Project banana"]
+    },
+    {
+      "name": "Person_ASH",
+      "projects": ["Project apple", "Project pineapple"]
+    },
+    {
+      "name": "Person_CHI",
+      "projects": ["Project grapes", "Project orange"]
+    }
+  ]
+}
