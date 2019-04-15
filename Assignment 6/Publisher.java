@@ -6,7 +6,7 @@ public class Publisher {
     private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
 
     public static void main(String[] args) throws JMSException {
-        ConnectionFactory connectionFactory = ActiveMQConnectionFactory(url);
+        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
         Connection connection = connectionFactory.createConnection();
         connection.start();
         // JMS messages are sent and received using a Session. We will
