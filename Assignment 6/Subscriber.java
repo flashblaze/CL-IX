@@ -22,7 +22,7 @@ public class Subscriber {
                 try {
                     if (message instanceof TextMessage) {
                         TextMessage textMessage = (TextMessage) message;
-                        System.out.println("Received message:­>" + textMessage.getText() + "'");
+                        System.out.println("Received message:­ " + textMessage.getText() + "'");
                     }
                 } catch (JMSException e) {
                     System.out.println("Caught:" + e);
