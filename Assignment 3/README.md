@@ -15,5 +15,7 @@ Next, type the below commands sequentially to run the code
 2. `javac *.java ReverseModule/*.java`
 3. `orbd -ORBInitialPort 1050&`
 4. `java ReverseServer -ORBInitialPort 1050& -ORBInitialHost localhost&`
-5. `java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost`
+5. In new terminal type `java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost`
 6. Type in client to get the result from server.
+
+Follow the similar steps for Stock App. Taken from [here](https://github.com/rahulbarhate/Distributed-Computing-Systems/tree/master/CORBA%20Stock%20Price/src)
